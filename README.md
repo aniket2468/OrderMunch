@@ -5,7 +5,7 @@
 
 ## A CRUD website - food delivery system.
 
-## Made using HTML, CSS, JavaScript, Bootstrap, PHP and MySQL
+## Website using HTML, CSS, JavaScript, Bootstrap, PHP and MySQL
 
 ### - Both Restaurents and Customers can sign up and login.
 
