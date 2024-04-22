@@ -1,21 +1,22 @@
-# OrderMunch
+# ADT Project Group 2
 
-After you finish downloading the project, unzip the project file and head over to your XAMPP/Laragon directory.
-There you’ll find a folder named “htdocs”.
 
-Inside the “htdocs” folder, paste the project folder (not the .zip one, but the extracted one).
+# Order Munch
 
-Open your favorite browser; we recommend using Google Chrome or Mozilla Firefox.
+## A CRUD website - food delivery system.
 
-Then, go to the URL “http://localhost:8888/phpmyadmin“.
+## Made using HTML, CSS, JavaScript, Bootstrap, PHP and MySQL
 
-Create a Database "final_project".
+### - Both Restaurents and Customers can sign up and login.
 
-Click on the “Import” tab and choose the database file (.sql) which is provided under the folder naming “DATABASE FILE”.
+### - MySQL database is used to store the data.
 
-After setting up all these, go to the URL “http://localhost:8888/[ PROJECT_FOLDER_NAME ]/“
+### - Different Tabels are: Customers, Restaurants, Cart, Food, Orders,
 
-admin link:
-http://localhost:8888/[ PROJECT_FOLDER_NAME ]/admin
-admin username: admin
-admin pwd: user@23
+### - Restaurants can add food items, delete food items, and take orders.
+
+### - Users can see the menu form different restaurents, add food items to the cart, delete food items from the cart, and order.
+
+### - The users will see the food items according to their preference- Veg/Non-veg.
+
+### - User login information is encrypted. Cookies are used for login. 
