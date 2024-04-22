@@ -1,4 +1,4 @@
-# ADT Project Group 2
+# ADT Project
 
 
 # Order Munch
