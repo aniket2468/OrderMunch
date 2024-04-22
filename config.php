@@ -2,7 +2,7 @@
 // Sets up the conection to database.
 $servername = "localhost";
 $username = "root";
-$password = "@dtProject2";
+$password = "root";
 $dbname = "OrderMunch";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
