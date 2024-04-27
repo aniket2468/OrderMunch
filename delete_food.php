@@ -28,6 +28,7 @@ if(isset($_GET['id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
     <link rel="stylesheet" href="style.css">
     <title>My Food</title>
 
@@ -53,7 +54,7 @@ if(isset($_GET['id'])) {
                 "<h2>Name: " . htmlspecialchars($row['name']) . "</h2>" .
                 "<h2>Price: " . htmlspecialchars($row['price']) . " $</h2>" .
                 "<h2>Food type: " . htmlspecialchars($pref) . "</h2>" .
-                "<a style='font-size:20px;' href='delete_food.php?id=" . htmlspecialchars($row['id']) . "'>Delete</a>";
+                "<a style='font-size:20px; margin-right: 10px;' href='update_food.php?id=" . htmlspecialchars($row['id']) . "'>Update</a>" . "<a style='font-size:20px; margin-right: 10px;' href='delete_food.php?id=" . htmlspecialchars($row['id']) . "'>Delete</a>";
             echo "</div>";
 
         }
